@@ -16,7 +16,7 @@ public class Todo {
     @GeneratedValue
     private int id;
 
-    private String username;
+    private String username = "in28minutes";
     @Size(min = 10, message = "Enter at least 10 characters")
     private String description;
     private LocalDate targetDate;
